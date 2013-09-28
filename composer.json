@@ -26,8 +26,10 @@
         "behat/symfony2-extension": "*",
         "behat/mink-extension": "*",
         "behat/mink-browserkit-driver": "*",
-        "behat/common-contexts": "*"
+        "behat/common-contexts": "*",
+        "phpspec/phpspec": "2.0.*@dev"
     },
+    "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
